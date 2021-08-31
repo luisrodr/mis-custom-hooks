@@ -1,2 +1,8 @@
-# Notas
-Aqui estan mis customHooks para ayudarme a mi o quien le sirva
+# useFetch
+
+ejemplo de uso:
+
+```
+    conjst url= "endpoint de una api";
+   const {{data:null,loading:true,error:null}=useFetch(url);
+```
