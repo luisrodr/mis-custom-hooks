@@ -1,2 +1,13 @@
-# Notas
-Aqui estan mis customHooks para ayudarme a mi o quien le sirva
+# useForm
+
+ejemplo de uso:
+
+```
+    const initialForm={
+        name:"",
+        age:"",
+        email=""
+
+    };
+    const [formvalues,handleInputChange,reset]=useForm(initialForm);
+```
